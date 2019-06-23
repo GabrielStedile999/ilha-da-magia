@@ -9,37 +9,6 @@
   background: #06683f;
 }
 
-.language {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding-top: 10px;
-}
-
-.language button {
-  width: 31px;
-  height: 21px;
-  margin-right: 10px;
-  border: none;
-  box-shadow: none;
-  outline: none;
-  cursor: pointer;
-}
-
-.language button.pt {
-  background: url('./img/pt_flag.jpg') 0 0 no-repeat;
-}
-
-.language button.en {
-  background: url('./img/en_flag.jpg') 0 0 no-repeat;
-}
-
-.language button.active {
-  height: 26px;
-  border-bottom: 5px solid #fff;
-}
-
 .menu {
   display: flex;
   flex-flow: row nowrap;
@@ -81,15 +50,5 @@
     margin: 0 10px 10px 0;
   }
 
-  .language {
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-  }
-
-  .language button {
-    margin: 0 0 7px 0;
-  }
-
-  .language button:last-child { margin: 0; }
 }
 

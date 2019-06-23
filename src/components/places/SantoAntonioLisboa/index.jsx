@@ -1,13 +1,14 @@
 import React from 'react';
-import { translate } from 'react-i18next';
 import santoantioniolisboa from './santoantioniolisboa.jpg';
 import Common from '../Common';
 
-const SantoAntonioLisboa = ({ t }) => (
-  <Common
-      t={t}
-      photo={santoantioniolisboa}
-      name='santoantoniolisboa' />
+const SantoAntonioLisboa = () => (
+    <Common
+        title={"Santo Antonio de Lisboa"}
+        alt={"Foto do Bairro Santo Antonio de Lisboa"}
+        credits={"Foto: Gabriel Stedile"}
+        content={"O bairro de Santo Antônio de Lisboa é muito charmoso e reflete a história da colonização açoriana no local. Com arquitetura característica, é local propício para a prática de pesca e passeios intimistas. Seus restaurantes são uma boa pedida para quem gosta de frutos do mar."}
+        photo={santoantioniolisboa}/>
 );
 
-export default translate('common')(SantoAntonioLisboa);
+export default SantoAntonioLisboa;

@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Common = ({ t, photo, name }) => (
+const Common = ({ title, alt, credits, content, photo}) => (
   <div className='preview'>
-    <h2>{t(`places.${name}.title`)}</h2>
+    <h2>{title}</h2>
     <figure>
-      <img src={photo} alt={t(`places.${name}.figure.alt`)} />
-      <figcaption>{t(`places.${name}.figure.credits`)}</figcaption>
+      <img src={photo} alt={alt} />
+      <figcaption>{credits}</figcaption>
     </figure>
-    <p>{t(`places.${name}.content`)}</p>
+    <p>{content}</p>
   </div>
 );
 

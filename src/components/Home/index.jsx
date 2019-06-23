@@ -1,21 +1,19 @@
 import React from 'react';
-import { translate } from 'react-i18next';
 import hercilioluz from './hercilioluz.jpeg';
 
-// t -> alias para traduzir os dados do locale
-const Home = ({ t }) => (
+const Home = () => (
   <div className='preview'>
-    <h1>{t('home.title')}</h1>
+    <h1>Ponte Hercílio Luz</h1>
     <div>
       <figure className='center'>
         <img
-            id={t('home.figure.id')}
+            id='hercilioluz'
             src={hercilioluz}
-            alt={t('home.figure.alt')} />
+            alt={'Foto da Ponte Hercílio Luz'} />
       </figure>
     </div>
-    <p className='center'>{t('home.content')}</p>
+    <p className='center'>A Ponte Hercílio Luz está localizada em Florianópolis, no estado brasileiro de Santa Catarina. A ponte foi construída com o objetivo de ligar a parte insular da capital do estado, na ilha de Santa Catarina, à sua parte continental, visando substituir o antigo serviço de ligação por balsas</p>
   </div>
 );
 
-export default translate('common')(Home);
+export default Home;

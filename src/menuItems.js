@@ -1,32 +1,30 @@
-import * as dictionary from './dictionary'
-
 export const menuItems = [
   {
-    label: dictionary.menuItems.HOME,
-    menu: dictionary.menuItems.HOME,
+    label: 'Home',
+    menu: 'Home',
   },
   {
-    label: dictionary.menuItems.ITEM_1,
-    menu: dictionary.menuItems.ITEM_ID_1,
+    label: 'Santo Antonio de Lisboa',
+    menu: 'SantoAntonioLisboa',
   },
   {
-    label: dictionary.menuItems.ITEM_2,
-    menu: dictionary.menuItems.ITEM_ID_2,
+    label: 'Costa da Lagoa da Conceição',
+    menu: 'CostaLagoaConceicao',
   },
   {
-    label: dictionary.menuItems.ITEM_3,
-    menu: dictionary.menuItems.ITEM_ID_3,
+    label: 'Ilha do Campeche',
+    menu: 'IlhaCampeche',
   },
   {
-    label: dictionary.menuItems.ITEM_4,
-    menu: dictionary.menuItems.ITEM_ID_4,
+    label: 'Dunas da Joaquina',
+    menu: 'DunasJoaquina',
   },
   {
-    label: dictionary.menuItems.ITEM_5,
-    menu: dictionary.menuItems.ITEM_ID_5,
+    label: 'Lagoa do Peri',
+    menu: 'LagoaPeri',
   },
   {
-    label: dictionary.menuItems.ITEM_6,
-    menu: dictionary.menuItems.ITEM_ID_6,
+    label: 'Contratar Guia',
+    menu: 'Guia',
   },
 ];
