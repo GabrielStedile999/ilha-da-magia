@@ -9,11 +9,11 @@ class AppProvider extends React.Component {
 
   state = {
     route: 'Home',
-  }
+  };
 
   go = (value) => {
     this.setState({ route: value });
-  }
+  };
 
   render() {
     const contextValues = {

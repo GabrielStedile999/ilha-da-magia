@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   font: normal 16px 'Open Sans';
   overflow: auto;
-  background: #e8f2f9;
+  background: #d8e8cc;
   height: 100%;
 }
 
@@ -11,7 +11,7 @@ h1, h2 {
   margin-top: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
-  color: #06683f;
+  color: #08492e;
   text-align: center;
 }
 
@@ -24,8 +24,7 @@ p {
 }
 
 ul {
-  list-style: none;
-  list-style-position: inside;
+  list-style: none inside none;
   margin: 0;
   padding: 0;
 }
@@ -35,7 +34,7 @@ ul {
 }
 
 img {
-  border: 10px solid #defcf0;
+  border: 10px solid #9eefa6;
   box-shadow: 0 0 3px 2px rgba(137, 183, 164,1);
   border-radius: 4px;
 }
@@ -49,9 +48,7 @@ img {
   color: #333;
   box-shadow: 0 0 5px rgba(0,0,0,.4);
   background: #fff;
-  border-radius: 4px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-radius: 0 0 4px 4px;
 }
 
 .preview {

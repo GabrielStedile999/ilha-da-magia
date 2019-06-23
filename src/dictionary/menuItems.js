@@ -9,4 +9,5 @@ export const ITEM_4 = 'Dunas da Joaquina';
 export const ITEM_ID_4 = 'DunasJoaquina';
 export const ITEM_5 = 'Lagoa do Peri';
 export const ITEM_ID_5 = 'LagoaPeri';
-export const ITEM_6 = 'Guia';
+export const ITEM_6 = 'Contratar Guia';
+export const ITEM_ID_6 = 'Guia';

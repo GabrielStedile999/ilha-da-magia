@@ -1,0 +1,11 @@
+{
+  "pt-BR": {
+    "title": "Formulário para Contração de Guia",
+    "brcurrency": "Reais Brasileiro",
+    "eucurrency": "Dólar Estadunidense",
+    "selectGuide": "Selecione um Guia",
+    "priceGuide": "Valor do Guia",
+    "currencyPayment": "Selecione a forma de pagamento",
+    "button": "Comprar"
+  }
+}

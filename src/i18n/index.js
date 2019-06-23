@@ -32,10 +32,11 @@ const options = {
   },
 };
 
+/* Seta linguagem inicial */
 i18n
   .use(LanguageDetector)
   .init(options)
-  .changeLanguage('en', (err, t) => {
+  .changeLanguage('pt', (err, t) => {
     if (err) return console.log('something went wrong loading', err);
   });
 

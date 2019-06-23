@@ -1,4 +1,4 @@
-## ILha da Magia
+## Ilha da Magia
 
 Sistema Web de informações sobre a ilha de Florianópolis
 

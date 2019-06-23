@@ -27,6 +27,6 @@ export const menuItems = [
   },
   {
     label: dictionary.menuItems.ITEM_6,
-    menu: dictionary.menuItems.ITEM_6,
+    menu: dictionary.menuItems.ITEM_ID_6,
   },
 ];

@@ -1,0 +1,11 @@
+{
+  "en": {
+    "title": "Form for Guide Contraction",
+    "brcurrency": "Brazilian Currency",
+    "eucurrency": "US Dollar",
+    "selectGuide": "Select a Guide",
+    "priceGuide": "Guide price",
+    "currencyPayment": "Select payment method",
+    "button": "Buy"
+  }
+}
